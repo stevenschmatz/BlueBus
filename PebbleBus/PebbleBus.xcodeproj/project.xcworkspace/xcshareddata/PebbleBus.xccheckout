@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D7A571E9-C212-420B-9EA5-47A4EB9A195D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PebbleBus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2118AABF7B443018115968518C9D471A20939DDE</key>
+		<string>https://github.com/stevenschmatz/pebble-bus-companion-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PebbleBus/PebbleBus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2118AABF7B443018115968518C9D471A20939DDE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stevenschmatz/pebble-bus-companion-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2118AABF7B443018115968518C9D471A20939DDE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2118AABF7B443018115968518C9D471A20939DDE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pebble-bus-companion-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
