@@ -44,7 +44,6 @@ class Request: NSObject {
             if error != nil {
                 println("Error: \(error)")
             } else {
-                println(data)
                 loadData = data
                 loadError = error
             }

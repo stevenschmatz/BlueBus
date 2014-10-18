@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         var array = parser.JSONParseArray()
         
         for item in array {
-            println(item)
+            var bus = Bus(jsonDict: item)
+            bus.prettyPrint()
         }
         // Do any additional setup after loading the view, typically from a nib.
     }

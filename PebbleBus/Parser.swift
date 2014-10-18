@@ -8,17 +8,6 @@
 
 import Foundation
 
-struct Bus {
-    var id: Int
-    var name: Int
-    var latitude: Double
-    var longitude: Double
-    var heading: Int
-    var route: Int
-    var lastStop: Int
-    var lastUpdate: Int64
-}
-
 class Parser: NSObject {
     
     var request = Request()
