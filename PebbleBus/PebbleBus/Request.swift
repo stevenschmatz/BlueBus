@@ -11,7 +11,7 @@ import Foundation
 class Request: NSObject {
     
     // URL of the bus JSON
-    let url = "http://mbus.doublemap.com/map/v2/buses"
+    let url = "http://mbus.doublemap.com/map/v2/eta?stop="
     
     // EFFECTS: Sends an HTTP request with the given callback.
     func SendHTTPRequest(request: NSMutableURLRequest, callback: (String, String?) -> Void) {
@@ -35,11 +35,11 @@ class Request: NSObject {
     }
     
     // EFFECTS: Connects to the Michigan magic bus application.
-    func GetBusJSON() -> (data: String, error: String?) {
+    func GetBusJSON(stop: Int) -> (data: String, error: String?) {
         var loadData = ""
         var loadError: String? = nil
         
-        HTTPGet(self.url) {
+        HTTPGet(self.url + String(stop)) {
             (data: String, error: String?) -> Void in
             if error != nil {
                 println("Error: \(error)")

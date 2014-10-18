@@ -12,13 +12,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var parser = Parser()
-        var array = parser.JSONParseArray()
+
+        var parser = Parser(stop: 3)
+        var busesJSON = parser.JSONParseArray()
         
-        for item in array {
-            var bus = Bus(jsonDict: item)
-            bus.prettyPrint()
+        for busJSON in busesJSON {
+            var eta = ETA(jsonDict: busJSON)
+            println("\"\(eta.busName)\" is \(eta.average) minutes away.")
         }
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 

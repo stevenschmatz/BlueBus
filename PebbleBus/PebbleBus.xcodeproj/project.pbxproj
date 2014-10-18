@@ -13,8 +13,8 @@
 		28F80F9E19F2C5D000797C73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F80F9D19F2C5D000797C73 /* Images.xcassets */; };
 		28F80FAA19F2C5D000797C73 /* PebbleBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FA919F2C5D000797C73 /* PebbleBusTests.swift */; };
 		28F80FB519F2C69A00797C73 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FB419F2C69A00797C73 /* Request.swift */; };
-		28F80FB719F2CA8500797C73 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FB619F2CA8500797C73 /* Parser.swift */; };
-		28F80FB919F2E61400797C73 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FB819F2E61400797C73 /* Bus.swift */; };
+		28F80FC919F30CBB00797C73 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FC819F30CBB00797C73 /* Parser.swift */; };
+		28F80FCB19F30D8000797C73 /* ETA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80FCA19F30D8000797C73 /* ETA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		28F80FA819F2C5D000797C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F80FA919F2C5D000797C73 /* PebbleBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleBusTests.swift; sourceTree = "<group>"; };
 		28F80FB419F2C69A00797C73 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		28F80FB619F2CA8500797C73 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = ../Parser.swift; sourceTree = "<group>"; };
-		28F80FB819F2E61400797C73 /* Bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		28F80FC819F30CBB00797C73 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		28F80FCA19F30D8000797C73 /* ETA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ETA.swift; path = ../ETA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 		28F80FB319F2C66300797C73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				28F80FB819F2E61400797C73 /* Bus.swift */,
-				28F80FB619F2CA8500797C73 /* Parser.swift */,
+				28F80FCA19F30D8000797C73 /* ETA.swift */,
+				28F80FC819F30CBB00797C73 /* Parser.swift */,
 				28F80FB419F2C69A00797C73 /* Request.swift */,
 			);
 			name = Model;
@@ -225,11 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F80FCB19F30D8000797C73 /* ETA.swift in Sources */,
+				28F80FC919F30CBB00797C73 /* Parser.swift in Sources */,
 				28F80F9919F2C5D000797C73 /* ViewController.swift in Sources */,
-				28F80FB719F2CA8500797C73 /* Parser.swift in Sources */,
 				28F80FB519F2C69A00797C73 /* Request.swift in Sources */,
 				28F80F9719F2C5D000797C73 /* AppDelegate.swift in Sources */,
-				28F80FB919F2E61400797C73 /* Bus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

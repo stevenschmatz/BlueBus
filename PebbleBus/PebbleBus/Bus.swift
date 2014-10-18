@@ -10,7 +10,6 @@ import Foundation
 
 class Bus {
     var id: Int = 0
-    var name: String = ""
     var latitude: Double = 0
     var longitude: Double = 0
     var heading: Int = 0
@@ -20,7 +19,6 @@ class Bus {
     
     init(jsonDict: AnyObject) {
         self.id = jsonDict["id"] as Int
-        self.name = jsonDict["name"] as String
         self.latitude = jsonDict["lat"] as Double
         self.longitude = jsonDict["lon"] as Double
         self.heading = jsonDict["heading"] as Int
@@ -30,6 +28,12 @@ class Bus {
     }
     
     func prettyPrint() {
-        println("Bus \(self.name) with ID \(self.id) is at \(latitude), \(longitude).")
+        println("Bus \(self.id) is at \(latitude), \(longitude).")
+    }
+    
+    func computeDistanceFrom(long: Double, lat: Double) -> Double {
+        println("\(long), \(self.longitude)")
+        println("\(pow(long - self.longitude, 2))")
+        return sqrt(pow(long - self.longitude, 2) + pow(lat - self.latitude, 2))
     }
 }
