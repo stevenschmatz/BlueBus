@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-                            
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        var parser = Parser()
+        var array = parser.JSONParseArray()
+        
+        for item in array {
+            println(item)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

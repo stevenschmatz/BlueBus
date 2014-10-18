@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2854F23A19F2A1BB007A791E"
+               BlueprintIdentifier = "28F80F9019F2C5D000797C73"
                BuildableName = "PebbleBus.app"
                BlueprintName = "PebbleBus"
                ReferencedContainer = "container:PebbleBus.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2854F24C19F2A1BB007A791E"
+               BlueprintIdentifier = "28F80FA219F2C5D000797C73"
                BuildableName = "PebbleBusTests.xctest"
                BlueprintName = "PebbleBusTests"
                ReferencedContainer = "container:PebbleBus.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2854F24C19F2A1BB007A791E"
+               BlueprintIdentifier = "28F80FA219F2C5D000797C73"
                BuildableName = "PebbleBusTests.xctest"
                BlueprintName = "PebbleBusTests"
                ReferencedContainer = "container:PebbleBus.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2854F23A19F2A1BB007A791E"
+            BlueprintIdentifier = "28F80F9019F2C5D000797C73"
             BuildableName = "PebbleBus.app"
             BlueprintName = "PebbleBus"
             ReferencedContainer = "container:PebbleBus.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2854F23A19F2A1BB007A791E"
+            BlueprintIdentifier = "28F80F9019F2C5D000797C73"
             BuildableName = "PebbleBus.app"
             BlueprintName = "PebbleBus"
             ReferencedContainer = "container:PebbleBus.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2854F23A19F2A1BB007A791E"
+            BlueprintIdentifier = "28F80F9019F2C5D000797C73"
             BuildableName = "PebbleBus.app"
             BlueprintName = "PebbleBus"
             ReferencedContainer = "container:PebbleBus.xcodeproj">
