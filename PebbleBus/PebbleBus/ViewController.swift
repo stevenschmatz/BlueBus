@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         var buses = BusesETA()
+        println(buses.busesString)
+        
+        var pebble = PebbleConnection()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

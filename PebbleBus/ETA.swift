@@ -27,6 +27,10 @@ class ETA {
         107: "Oxford Loop to Diag to Diag Express",
         192: "Northwood",
         193: "North Campus",
+        194: "Bursley-Baits", // unsure
+        195: "Night owl", // unsure
+        195: "Northwood",
+        197: "Northwood",
         198: "Bursley-Baits",
         199: "Northwood",
         200: "Oxford Shuttle"
@@ -46,7 +50,7 @@ class ETA {
     }
     
     func setBusName(route: Int) -> String {
-        var busName = "Unknown"
+        var busName = "Some MBus"
         
         for (busNumber, busName) in busNames {
             if route == busNumber {

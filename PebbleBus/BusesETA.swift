@@ -19,6 +19,8 @@ class BusesETA: NSObject, CLLocationManagerDelegate {
     var closestStopToUser: Int = 0
     var closestStopName: String = ""
     
+    var busesString: String = ""
+    
     override init() {
         
         super.init()
@@ -47,7 +49,7 @@ class BusesETA: NSObject, CLLocationManagerDelegate {
         for busJSON in busesJSON {
             var eta = ETA(jsonDict: busJSON)
             etaList.append(eta)
-            println("\"\(eta.busName)\" (\(eta.route)) is \(eta.average) minutes away.")
+            busesString += String("\"\(eta.busName)\" (\(eta.route)) is \(eta.average) minutes away.")
         }
     }
     
