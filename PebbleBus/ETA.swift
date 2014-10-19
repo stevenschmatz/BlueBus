@@ -28,9 +28,8 @@ class ETA {
         192: "Northwood",
         193: "North Campus",
         194: "Bursley-Baits", // unsure
-        195: "Night owl", // unsure
         195: "Northwood",
-        197: "Northwood",
+        197: "Night Owl",
         198: "Bursley-Baits",
         199: "Northwood",
         200: "Oxford Shuttle"

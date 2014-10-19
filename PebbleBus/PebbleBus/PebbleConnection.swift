@@ -25,9 +25,11 @@ class PebbleConnection: NSObject, PBPebbleCentralDelegate {
         println("Last connected watch: \(self.connectedWatch)")
         
         // Set UUID
-        var myAppUUID = NSUUID(UUIDString: self.UUID)
-        myAppUUID.getUUIDBytes(myAppUUIDBytes)
-        PBPebbleCentral.defaultCentral().appUUID = NSData(bytes: myAppUUIDBytes, length: 16)
+        var myAppUUID = NSUUID(UUIDString: UUID)
+        
+        var something = UUID.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
+        
+        PBPebbleCentral.defaultCentral().appUUID = NSData(bytes: something!.bytes, length: 16)
         
         self.connectedWatch.appMessagesLaunch({(watch: PBWatch!, error: NSError!) in
             if (error == nil) {
