@@ -17,6 +17,7 @@
 		28DF4A4D19F387CF007C2851 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DF4A4C19F387CF007C2851 /* CFNetwork.framework */; };
 		28DF4A4F19F387D8007C2851 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DF4A4E19F387D8007C2851 /* MessageUI.framework */; };
 		28DF4A5119F387F0007C2851 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DF4A5019F387F0007C2851 /* UIKit.framework */; };
+		28DF4A5919F39532007C2851 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DF4A5819F39532007C2851 /* DataModel.swift */; };
 		28F80F9719F2C5D000797C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80F9619F2C5D000797C73 /* AppDelegate.swift */; };
 		28F80F9919F2C5D000797C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F80F9819F2C5D000797C73 /* ViewController.swift */; };
 		28F80F9C19F2C5D000797C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F80F9A19F2C5D000797C73 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		28DF4A4E19F387D8007C2851 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		28DF4A5019F387F0007C2851 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28DF4A5419F3894F007C2851 /* PebbleBus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PebbleBus-Bridging-Header.h"; sourceTree = "<group>"; };
+		28DF4A5819F39532007C2851 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		28F80F9119F2C5D000797C73 /* PebbleBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F80F9519F2C5D000797C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F80F9619F2C5D000797C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				28DF4A3B19F384A3007C2851 /* PebbleConnection.swift */,
+				28DF4A5819F39532007C2851 /* DataModel.swift */,
 			);
 			name = Pebble;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				28DF4A3C19F384A3007C2851 /* PebbleConnection.swift in Sources */,
 				28F80F9919F2C5D000797C73 /* ViewController.swift in Sources */,
 				28F80FB519F2C69A00797C73 /* Request.swift in Sources */,
+				28DF4A5919F39532007C2851 /* DataModel.swift in Sources */,
 				28F80F9719F2C5D000797C73 /* AppDelegate.swift in Sources */,
 				28F80FCD19F31B1800797C73 /* BusesETA.swift in Sources */,
 			);

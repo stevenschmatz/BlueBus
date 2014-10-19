@@ -13,10 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var buses = BusesETA()
-        println(buses.busesString)
-        
-        var pebble = PebbleConnection()
+        var dataModel = DataModel()
+        dataModel.sendDisplayDataToPebble()
         
         // Do any additional setup after loading the view, typically from a nib.
     }
