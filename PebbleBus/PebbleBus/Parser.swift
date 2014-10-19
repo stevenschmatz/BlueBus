@@ -11,19 +11,23 @@ import Foundation
 class Parser: NSObject {
     
     var request = Request()
-    var stop: Int
     
-    init(stop: Int) {
-        self.stop = stop
-    }
-    
-    func JSONParseArray() -> [AnyObject] {
-        var response = request.GetBusJSON(self.stop)
+    func JSONParseArray(isBusJSON: Bool, stop: Int) -> [AnyObject] {
+        var response: (data: String, error: String?)
         
-        let beginIndex = response.data.rangeOfString("[")?.startIndex
-        let endIndex = response.data.rangeOfString("]")?.endIndex
-
-        let responseArray = response.data.substringWithRange(beginIndex!..<endIndex!)
+        var responseArray: String
+        
+        if (isBusJSON) {
+            response.data = request.GetBusJSON(stop).data
+            var beginIndex: String.Index
+            var endIndex: String.Index
+            beginIndex = response.data.rangeOfString("[")!.startIndex
+            endIndex = response.data.rangeOfString("]")!.startIndex
+            
+            responseArray = response.data.substringWithRange(beginIndex...endIndex)
+        } else {
+            responseArray = request.GetStopJSON().data
+        }
         
         if let data = responseArray.dataUsingEncoding(NSUTF8StringEncoding) {
             

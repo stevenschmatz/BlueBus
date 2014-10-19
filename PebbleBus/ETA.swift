@@ -25,6 +25,7 @@ class ETA {
         92: "Diag to Diag express",
         102: "Commuter Northbound (Nights)",
         107: "Oxford Loop to Diag to Diag Express",
+        192: "Northwood",
         193: "North Campus",
         198: "Bursley-Baits",
         199: "Northwood",

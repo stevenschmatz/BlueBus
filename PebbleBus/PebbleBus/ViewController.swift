@@ -12,15 +12,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        var parser = Parser(stop: 3)
-        var busesJSON = parser.JSONParseArray()
         
-        for busJSON in busesJSON {
-            var eta = ETA(jsonDict: busJSON)
-            println("\"\(eta.busName)\" is \(eta.average) minutes away.")
-        }
-    
+        var buses = BusesETA()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

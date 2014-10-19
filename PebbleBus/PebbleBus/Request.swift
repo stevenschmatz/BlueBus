@@ -12,6 +12,7 @@ class Request: NSObject {
     
     // URL of the bus JSON
     let url = "http://mbus.doublemap.com/map/v2/eta?stop="
+    let stopURL = "http://mbus.doublemap.com/map/v2/stops"
     
     // EFFECTS: Sends an HTTP request with the given callback.
     func SendHTTPRequest(request: NSMutableURLRequest, callback: (String, String?) -> Void) {
@@ -50,7 +51,27 @@ class Request: NSObject {
         }
       
         // This is weird... if you don't sleep, this doesn't work
-        sleep(1)
+        sleep(2)
+        
+        return (loadData, loadError)
+    }
+    
+    func GetStopJSON() -> (data: String, error: String?) {
+        var loadData = ""
+        var loadError: String? = nil
+        
+        HTTPGet(self.stopURL) {
+            (data: String, error: String?) -> Void in
+            if error != nil {
+                println("Error: \(error)")
+            } else {
+                loadData = data
+                loadError = error
+            }
+        }
+        
+        // This is weird... if you don't sleep, this doesn't work
+        sleep(2)
         
         return (loadData, loadError)
     }
