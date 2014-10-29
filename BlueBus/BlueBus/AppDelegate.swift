@@ -12,10 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
+    
 
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.Default, animated: false)
         return true
     }
 

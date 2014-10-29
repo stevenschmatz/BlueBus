@@ -13,8 +13,8 @@
 		28699BEF1A018E5D00E9806C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28699BED1A018E5D00E9806C /* Main.storyboard */; };
 		28699BF11A018E5D00E9806C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28699BF01A018E5D00E9806C /* Images.xcassets */; };
 		28699BFD1A018E5D00E9806C /* BlueBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699BFC1A018E5D00E9806C /* BlueBusTests.swift */; };
-		28699C091A018E7A00E9806C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699C071A018E7A00E9806C /* Request.swift */; };
-		28699C0A1A018E7A00E9806C /* routeNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 28699C081A018E7A00E9806C /* routeNames.json */; };
+		28699C0D1A01927B00E9806C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699C0B1A01927B00E9806C /* Request.swift */; };
+		28699C0E1A01927B00E9806C /* routeNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 28699C0C1A01927B00E9806C /* routeNames.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		28699BF61A018E5D00E9806C /* BlueBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28699BFB1A018E5D00E9806C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28699BFC1A018E5D00E9806C /* BlueBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBusTests.swift; sourceTree = "<group>"; };
-		28699C071A018E7A00E9806C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../../BlueBus/BlueBus/Request.swift; sourceTree = "<group>"; };
-		28699C081A018E7A00E9806C /* routeNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = routeNames.json; path = ../../../BlueBus/BlueBus/routeNames.json; sourceTree = "<group>"; };
+		28699C0B1A01927B00E9806C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../../../.Trash/BlueBus/BlueBus/Request.swift; sourceTree = "<group>"; };
+		28699C0C1A01927B00E9806C /* routeNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = routeNames.json; path = ../../../../.Trash/BlueBus/BlueBus/routeNames.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 		28699C061A018E6D00E9806C /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				28699C071A018E7A00E9806C /* Request.swift */,
-				28699C081A018E7A00E9806C /* routeNames.json */,
+				28699C0B1A01927B00E9806C /* Request.swift */,
+				28699C0C1A01927B00E9806C /* routeNames.json */,
 			);
 			name = "Data Model";
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28699BEF1A018E5D00E9806C /* Main.storyboard in Resources */,
-				28699C0A1A018E7A00E9806C /* routeNames.json in Resources */,
+				28699C0E1A01927B00E9806C /* routeNames.json in Resources */,
 				28699BF11A018E5D00E9806C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28699BEC1A018E5D00E9806C /* SecondViewController.swift in Sources */,
-				28699C091A018E7A00E9806C /* Request.swift in Sources */,
+				28699C0D1A01927B00E9806C /* Request.swift in Sources */,
 				28699BE81A018E5D00E9806C /* AppDelegate.swift in Sources */,
 				28699BEA1A018E5D00E9806C /* FirstViewController.swift in Sources */,
 			);
@@ -417,6 +417,7 @@
 				28699C021A018E5D00E9806C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28699C031A018E5D00E9806C /* Build configuration list for PBXNativeTarget "BlueBusTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				28699C051A018E5D00E9806C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
