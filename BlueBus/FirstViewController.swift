@@ -14,6 +14,8 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     @IBOutlet weak var tableView: UITableView!
     
+    let request = Request()
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -24,6 +26,8 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         // Register the UITableViewCell class with the tableView
         self.tableView?.registerClass(UITableViewCell.self, forCellReuseIdentifier: self.cellIdentifier)
+        
+        request.makeRequest()
 
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -44,14 +48,21 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 100
+
+        // Wait while content is not ready
+        while !self.request.contentIsPrepared {}
+        
+        return self.request.busesList.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: self.cellIdentifier)
         
-        cell.textLabel.text = "Bursley-Baits"
-        cell.detailTextLabel?.text = "10 minutes"
+        let busName = self.request.busesList[indexPath.row].0
+        let busTime = self.request.busesList[indexPath.row].1
+        
+        cell.textLabel.text = busName
+        cell.detailTextLabel?.text = "\(busTime) minutes"
         
         cell.textLabel.font = UIFont(name: "Lobster Two", size: 30)
         
