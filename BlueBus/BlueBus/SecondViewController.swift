@@ -10,7 +10,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
                             
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    
     override func viewDidLoad() {
+        self.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "Lobster Two", size: 34)!]
+        
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.Default, animated: false)
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

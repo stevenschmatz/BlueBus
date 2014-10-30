@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		28699BE81A018E5D00E9806C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699BE71A018E5D00E9806C /* AppDelegate.swift */; };
-		28699BEA1A018E5D00E9806C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699BE91A018E5D00E9806C /* FirstViewController.swift */; };
 		28699BEC1A018E5D00E9806C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699BEB1A018E5D00E9806C /* SecondViewController.swift */; };
 		28699BEF1A018E5D00E9806C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28699BED1A018E5D00E9806C /* Main.storyboard */; };
 		28699BF11A018E5D00E9806C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28699BF01A018E5D00E9806C /* Images.xcassets */; };
 		28699BFD1A018E5D00E9806C /* BlueBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699BFC1A018E5D00E9806C /* BlueBusTests.swift */; };
 		28699C0D1A01927B00E9806C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28699C0B1A01927B00E9806C /* Request.swift */; };
 		28699C0E1A01927B00E9806C /* routeNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 28699C0C1A01927B00E9806C /* routeNames.json */; };
+		28699C141A01A45200E9806C /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 28699C131A01A45200E9806C /* stops.json */; };
+		28CE40921A01CD9400EF8330 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE40911A01CD9400EF8330 /* FirstViewController.swift */; };
+		28CE40941A01CE3F00EF8330 /* NearbyBusesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE40931A01CE3F00EF8330 /* NearbyBusesTableViewController.swift */; };
+		28CE409A1A01D33D00EF8330 /* LobsterTwo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CE40961A01D32100EF8330 /* LobsterTwo-Bold.ttf */; };
+		28CE409B1A01D34100EF8330 /* LobsterTwo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CE40971A01D32100EF8330 /* LobsterTwo-BoldItalic.ttf */; };
+		28CE409C1A01D34400EF8330 /* LobsterTwo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CE40981A01D32100EF8330 /* LobsterTwo-Italic.ttf */; };
+		28CE409D1A01D34600EF8330 /* LobsterTwo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CE40991A01D32100EF8330 /* LobsterTwo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,6 @@
 		28699BE21A018E5D00E9806C /* BlueBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28699BE61A018E5D00E9806C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28699BE71A018E5D00E9806C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28699BE91A018E5D00E9806C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		28699BEB1A018E5D00E9806C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		28699BEE1A018E5D00E9806C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28699BF01A018E5D00E9806C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -40,6 +45,13 @@
 		28699BFC1A018E5D00E9806C /* BlueBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBusTests.swift; sourceTree = "<group>"; };
 		28699C0B1A01927B00E9806C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = ../../../../.Trash/BlueBus/BlueBus/Request.swift; sourceTree = "<group>"; };
 		28699C0C1A01927B00E9806C /* routeNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = routeNames.json; path = ../../../../.Trash/BlueBus/BlueBus/routeNames.json; sourceTree = "<group>"; };
+		28699C131A01A45200E9806C /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
+		28CE40911A01CD9400EF8330 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		28CE40931A01CE3F00EF8330 /* NearbyBusesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyBusesTableViewController.swift; path = ../NearbyBusesTableViewController.swift; sourceTree = "<group>"; };
+		28CE40961A01D32100EF8330 /* LobsterTwo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Bold.ttf"; sourceTree = "<group>"; };
+		28CE40971A01D32100EF8330 /* LobsterTwo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		28CE40981A01D32100EF8330 /* LobsterTwo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Italic.ttf"; sourceTree = "<group>"; };
+		28CE40991A01D32100EF8330 /* LobsterTwo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +93,12 @@
 		28699BE41A018E5D00E9806C /* BlueBus */ = {
 			isa = PBXGroup;
 			children = (
+				28CE40951A01D31500EF8330 /* Resources */,
 				28699C061A018E6D00E9806C /* Data Model */,
 				28699BE71A018E5D00E9806C /* AppDelegate.swift */,
-				28699BE91A018E5D00E9806C /* FirstViewController.swift */,
+				28CE40911A01CD9400EF8330 /* FirstViewController.swift */,
 				28699BEB1A018E5D00E9806C /* SecondViewController.swift */,
+				28CE40931A01CE3F00EF8330 /* NearbyBusesTableViewController.swift */,
 				28699BED1A018E5D00E9806C /* Main.storyboard */,
 				28699BF01A018E5D00E9806C /* Images.xcassets */,
 				28699BE51A018E5D00E9806C /* Supporting Files */,
@@ -121,9 +135,21 @@
 			isa = PBXGroup;
 			children = (
 				28699C0B1A01927B00E9806C /* Request.swift */,
+				28699C131A01A45200E9806C /* stops.json */,
 				28699C0C1A01927B00E9806C /* routeNames.json */,
 			);
 			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		28CE40951A01D31500EF8330 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28CE40961A01D32100EF8330 /* LobsterTwo-Bold.ttf */,
+				28CE40971A01D32100EF8330 /* LobsterTwo-BoldItalic.ttf */,
+				28CE40981A01D32100EF8330 /* LobsterTwo-Italic.ttf */,
+				28CE40991A01D32100EF8330 /* LobsterTwo-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +232,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CE409C1A01D34400EF8330 /* LobsterTwo-Italic.ttf in Resources */,
 				28699BEF1A018E5D00E9806C /* Main.storyboard in Resources */,
+				28CE409A1A01D33D00EF8330 /* LobsterTwo-Bold.ttf in Resources */,
 				28699C0E1A01927B00E9806C /* routeNames.json in Resources */,
 				28699BF11A018E5D00E9806C /* Images.xcassets in Resources */,
+				28CE409B1A01D34100EF8330 /* LobsterTwo-BoldItalic.ttf in Resources */,
+				28CE409D1A01D34600EF8330 /* LobsterTwo-Regular.ttf in Resources */,
+				28699C141A01A45200E9806C /* stops.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,8 +259,9 @@
 			files = (
 				28699BEC1A018E5D00E9806C /* SecondViewController.swift in Sources */,
 				28699C0D1A01927B00E9806C /* Request.swift in Sources */,
+				28CE40941A01CE3F00EF8330 /* NearbyBusesTableViewController.swift in Sources */,
 				28699BE81A018E5D00E9806C /* AppDelegate.swift in Sources */,
-				28699BEA1A018E5D00E9806C /* FirstViewController.swift in Sources */,
+				28CE40921A01CD9400EF8330 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
